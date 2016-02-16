@@ -1,13 +1,13 @@
 ---
 title: "Introduction to RStudio Awesomeness"
-author: Julie Lowndes // jules32
+author: Julie Lowndes // jules32 // @juliesquid
 date: 02-14-2016
 output: html_document
 ---
 
 My friend is a dedicated R user but hasn't had exposure to the awesomeness of RStudio and their many contributions to the scientific community. Since she is a new professor starting up her lab, we are starting a series of Skype calls and screen sharing to get her comfortable (and converted!). For our first call, I tried to categorize the awesomeness that would be most accessible for her needs: Intro to the IDE, R Packages, and Support.
 
-**If R were an airplane, RStudio would be the airport**, providing you with access to the plane along with many, many supporting services so you can take off and go to awesome places. Sure, you can use the airplane without an airport, but having that infrastructure and support is a game-changer for you, the pilot, and this is why. 
+**If R were an airplane, RStudio would be the airport**, providing many, many supporting services that make it easier for you, the pilot, to take off and go to awesome places. Sure, you can fly an airplane without an airport, but having those runways and supporting infrastructure is a game-changer. This is why. 
 
 ## 1. The RStudio IDE.
 
