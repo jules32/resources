@@ -1,0 +1,76 @@
+---
+title: "Introduction to RStudio Awesomeness"
+author: Julie Lowndes // jules32
+date: 02-14-2016
+output: html_document
+---
+
+My friend is a dedicated R user but hasn't had exposure to the awesomeness of RStudio and their many contributions to the scientific community. Since she is a new professor starting up her lab, we are starting a series of Skype calls and screen sharing to get her comfortable (and converted!). For our first call, I tried to categorize the awesomeness that would be most accessible for her needs: Intro to the IDE, R Packages, and Support.
+
+
+## 1. The RStudio IDE.
+
+**If R were an airplane, RStudio would be the airport**, providing you with access to the plane along with many, many supporting services that enable you to take off and go to awesome places. Here are the main features to look at as we walk through the IDE together. (IDE stands for integrated development environment.) Check out the [webinar](https://www.rstudio.com/resources/webinars/) and [RStudio IDE cheatsheet](https://www.rstudio.com/resources/cheatsheets/) for more.
+
+- R console: tab completion of functions, file names, variables
+- window docking for source files (and now, multiple source windows)
+- debugging capabilities
+- text editor / markdown previewer
+- panes/tabs: file paths, plots, packages, help, viewer
+- environment tab: visible work space
+- `.rproj`: load working directory; have multiple sessions
+- Git tab: direct connection to GitHub (can do most-used functions without the command line or the GitHub Desktop App)
+
+And check out the blog for the most recent [RStudio v0.99.878 release](http://blog.rstudio.org/2016/02/09/new-release-of-rstudio-v0-99-878/)
+
+## 2. R Packages. 
+
+**RStudio has made a bunch of packages that are complete game-changers for data wrangling and analysis.** Chains (`%>%`) make your code more readable, with fewer temporary variables, which enables humans like your future self and your collaborators to tell what is going on, and cleaner code helps reduce mistakes.
+
+- `dplyr`. This changes everything. Use dplyr verbs and chains (`%>%`) to make code readable to you and others. A few great blogs from [RStudio: 'Introducing dplyr'](http://blog.rstudio.org/2014/01/17/introducing-dplyr/) and [statsblogs: 'How dplyr replaced some of my most common idioms'](http://www.statsblogs.com/2014/02/10/how-dplyr-replaced-my-most-common-r-idioms/). Also, check out the [data wrangling cheatsheet](https://www.rstudio.com/resources/cheatsheets/). Main verbs (guess what they do!):
+    - `filter()`
+    - `arrange()`
+    - `select()`
+    - `mutate()`
+    - `summarise()`
+    
+- `tidyr`. Get your messy data into a format you can work with, quickly! Great blogs from [RStudio: 'Introducing tidyr'](http://blog.rstudio.org/2014/07/22/introducing-tidyr/) and [I'm a Chordata: 'You complete me'](http://www.imachordata.com/you-complete-me/), and the [data wrangling cheatsheet](https://www.rstudio.com/resources/cheatsheets/). Main verbs:
+    - `gather()`
+    - `spread()`
+    - `complete()`
+    
+- `ggplot2`. The grammar of graphics: build plots more intuitively, and with chains. More info at [ggplot2.org](http://ggplot2.org/), and the [ggplot2 cheatsheet](https://www.rstudio.com/resources/cheatsheets/). 
+
+- `knitr`, `rmarkdown` make documents in markdown with executable R code, eg: [rendered .html](https://cdn.rawgit.com/eco-data-science/spatial-analysis-R/master/intro_spatial_data_R.html), [rendered .pdf](https://github.com/jafflerbach/spatial-analysis-R/blob/master/intro_spatial_data_R.pdf), and [rendered presentations](http://ohi-science.org/tutorials/tbx_intro/#1)! 
+
+- `readr`, `readxl`. Read files in faster, with fewer arguments
+
+- `stringr`. Easier string wrangling! 
+
+- `lubridate`. Easier date wrangling!
+
+- so many more...
+
+Another total game-changer:
+
+- `shiny`. Interactive web applications, all from R. Is so useful for science communication and data exploration, and the possibilities are really endless. Learn all about it [shiny.rstudio.com](http://shiny.rstudio.com/) and see examples: [gallery](http://shiny.rstudio.com/gallery/). 
+
+
+## 3. Support!
+
+RStudio really prioritizes communication and so resources available online are incredible. Google your error messages, and you'll find the RStudio team's instruction, tutorials, bug fixes, etc. Along with [stackoverflow.com](stackoverflow.com), keep an eye out for GitHub issues from RStudio: [github.com/rstudio](https://github.com/rstudio) and individuals at RStudio (read on...).
+
+- **RStudio developers are real people!** They are leaders in the open science community, and are engaged with the discussions going on. You can follow their conversations or join the discussions easily through Twitter, and GitHub. Here are some of the RStudio heroes, with github and twitter handles:
+    - Joe Cheng, jcheng5, @jcheng
+    - Hadley Wickham, hadley, @hadleywickham, [hadley.nz](http://hadley.nz/)
+    - Yihui Xie, yihui, @xieyihui
+- [**webinars**](https://www.rstudio.com/resources/webinars/). Garrett Grolemund (garrettgman, @StatGarrett) leads fantastic webinars about RStudio features, packages, and best practices.
+- [**cheatsheets**](https://www.rstudio.com/resources/cheatsheets/). Garrett also makes these cheatsheets that are so well-done and super-useful. Download/print them all. 
+
+#### Other resources
+
+- ['R for Data Science' by Hadley Wickham and Garrett Grolemund](http://r4ds.had.co.nz/intro.html). An online book about how to use all of these things, together. In progress, but you can read it as they write it. 
+
+The greater RStudio and #rstats community is making some incredible resources for teaching all of this stuff. 
+
+- ['Data wrangling, exploration, and analysis with R': UBC Stats 545 by Jenny Bryan](https://stat545-ubc.github.io/): Jenny Bryan (jennybc, @JennyBryan)'s course teaches everything listed above, all through GitHub. Incredible course and resource. 
