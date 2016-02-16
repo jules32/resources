@@ -1,0 +1,18 @@
+exclude:
+  - vendor
+  - "*.Rmd"
+baseurl: /env-info
+gems: # https://pages.github.com/versions/
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jemoji
+#  - jekyll-last-modified-at
+
+# Conversion
+markdown:    kramdown
+highlighter: pygments
+kramdown:
+  input: GFM
