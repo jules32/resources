@@ -58,7 +58,7 @@ Another total game-changer:
 
 ## 3. Support!
 
-RStudio really prioritizes communication and so resources available online are incredible. Google your questions error messages, and you'll find the RStudio team's instruction, tutorials, bug fixes, etc. Along with [stackoverflow.com](stackoverflow.com), keep an eye out for GitHub issues from RStudio: [github.com/rstudio](https://github.com/rstudio) and individuals at RStudio (read on...).
+RStudio really prioritizes communication and so resources available online are incredible. Google your questions or error messages, and you'll find the RStudio team's instruction, tutorials, bug fixes, etc. Along with [stackoverflow.com](stackoverflow.com), keep an eye out for GitHub issues from RStudio: [github.com/rstudio](https://github.com/rstudio) and individuals at RStudio (read on...).
 
 - **RStudio developers are real people!** They are leaders in the open science community, and are engaged with the discussions going on. You can follow their conversations or join the discussions easily through Twitter, and GitHub. Here are some of the RStudio heroes, with github and twitter handles:
     - Joe Cheng, jcheng5, @jcheng
