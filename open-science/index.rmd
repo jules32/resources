@@ -20,8 +20,8 @@ I've found the following blogs and articles to be really valuable as I've become
 
 ## RStudio features+workflows
 
-- [every RStudio cheatsheet]() and [webinar]() - *RStudio*
-- [If R were an airplane, RStudio is the airport]() - *me*
+- [every RStudio cheatsheet](https://www.rstudio.com/resources/cheatsheets/) and [webinar](https://www.rstudio.com/resources/webinars/) - *RStudio*
+- [If R were an airplane, RStudio is the airport](http://jules32.github.io/resources/RStudio_intro/) - *me*
 - [UBC Stats454: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html) - *Jenny Bryan*
 - [How dplyr replaced my most common R idioms](http://www.statsblogs.com/2014/02/10/how-dplyr-replaced-my-most-common-r-idioms/) - *Tony Fischetti*
 
