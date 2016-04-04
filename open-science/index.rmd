@@ -1,0 +1,40 @@
+---
+title: "'Open Science' and why it matters"
+author: Julie Lowndes // jules32 // @juliesquid
+date: 04-03-2016
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+As I have developed as a scientist I've become more engaged in open, reproducible science, and now I think it's the only way to go. There are so many free tools and resources available, and instruction and access are getting easier all the time, thanks to groups like RStudio, rOpenSci, GitHub, Software Carpentry, and many others. I think there are two main obstacles for scientists to become programmers and use these tools: **exposure and confidence**. But once scientists are exposed to the power and beauty of these tools, they will gain confidence through practice and soon they will be using them for all aspects of their workflow, from reading in 'untidy' spreadsheets to displaying interactive graphics online. And it will happen sooner than you think.
+
+I've found the following blogs and articles to be really valuable as I've become a data scientist. 
+
+## Open Science
+
+- [What is Open Science](https://ropensci.org/about/) - *rOpenSci*
+- [The 10 Things Every New Grad Student Should Do](http://carlystrasser.net/the-10-things-every-new-grad-student-should-do/) - *Carly Strasser*
+- [Closed Data… Excuses, Excuses](http://carlystrasser.net/closed-data-excuses-excuses/) - *Carly Strasser*
+
+## RStudio features+workflows
+
+- [every RStudio cheatsheet]() and [webinar]() - *RStudio*
+- [If R were an airplane, RStudio is the airport]() - *me*
+- [UBC Stats454: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html) - *Jenny Bryan*
+- [How dplyr replaced my most common R idioms](http://www.statsblogs.com/2014/02/10/how-dplyr-replaced-my-most-common-r-idioms/) - *Tony Fischetti*
+
+## Other coding/reproducibility blogs
+- [Helping my students overcome command-line bullshittery](http://pgbovine.net/command-line-bullshittery.htm) - *Philip Guo*
+- [The Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/) - *Eric Raymond*
+- [Reproducible research is still a challenge](https://ropensci.org/blog/2014/06/09/reproducibility) - *Rich FitzJohn et al*
+
+
+## Other great resources
+
+- [RStudio blog](http://blog.rstudio.org/)
+- [R-bloggers](http://www.r-bloggers.com/)
+
+
+
